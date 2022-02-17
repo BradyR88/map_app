@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731B0AEB27BEA3B000B98C94 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B0AEA27BEA3B000B98C94 /* BusinessDetail.swift */; };
 		7353F81727BBF53200C194B6 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7353F81627BBF53200C194B6 /* ContentModel.swift */; };
 		7353F81927BC163500C194B6 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7353F81827BC163500C194B6 /* Business.swift */; };
 		7353F81B27BC1ABA00C194B6 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7353F81A27BC1ABA00C194B6 /* BusinessSearch.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		731B0AEA27BEA3B000B98C94 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
 		7353F81627BBF53200C194B6 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = SOURCE_ROOT; };
 		7353F81827BC163500C194B6 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		7353F81A27BC1ABA00C194B6 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		731B0AE927BEA37200B98C94 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				731B0AEA27BEA3B000B98C94 /* BusinessDetail.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		7353F81C27BC785300C194B6 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 				7353F82727BD7D5900C194B6 /* BusinessSectionHeader.swift */,
 				7353F82927BD7FDF00C194B6 /* BusinessSection.swift */,
 				7353F82B27BD85BD00C194B6 /* BusinessRow.swift */,
+				731B0AE927BEA37200B98C94 /* Detail */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -234,6 +245,7 @@
 				7353F81927BC163500C194B6 /* Business.swift in Sources */,
 				7353F82827BD7D5900C194B6 /* BusinessSectionHeader.swift in Sources */,
 				73F2774F27BBEDAB008F4EC2 /* City_SIghtsApp.swift in Sources */,
+				731B0AEB27BEA3B000B98C94 /* BusinessDetail.swift in Sources */,
 				7353F81B27BC1ABA00C194B6 /* BusinessSearch.swift in Sources */,
 				7353F82627BD589F00C194B6 /* BusinessList.swift in Sources */,
 				7353F82A27BD7FDF00C194B6 /* BusinessSection.swift in Sources */,
