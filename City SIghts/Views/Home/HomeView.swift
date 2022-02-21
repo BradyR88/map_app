@@ -38,12 +38,34 @@ struct HomeView: View {
                     .navigationBarHidden(true)
                 }
                 else {
-                    // show map
-                    BusinessMap(selectedBusiness: $selectedBusiness)
-                        .ignoresSafeArea()
-                        .sheet(item: $selectedBusiness) { budiness in
-                            BusinessDetail(business: budiness)
+                    
+                    ZStack (alignment: .top) {
+                        // show map
+                        BusinessMap(selectedBusiness: $selectedBusiness)
+                            .ignoresSafeArea()
+                            .sheet(item: $selectedBusiness) { budiness in
+                                BusinessDetail(business: budiness)
+                            }
+                        
+                        ZStack {
+                            Rectangle()
+                                .foregroundColor(.white)
+                                .frame(height: 48)
+                                .cornerRadius(5)
+                            
+                            HStack {
+                                Image(systemName: "location")
+                                Text("Citty Name")
+                                Spacer()
+                                Button("Switch to list view") {
+                                    self.isMapShowing = false
+                                }
+                            }
+                            .padding()
                         }
+                        .padding()
+                    }
+                    .navigationBarHidden(true)
                 }
             }
         }
