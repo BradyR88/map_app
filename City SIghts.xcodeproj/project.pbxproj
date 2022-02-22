@@ -23,6 +23,8 @@
 		739F4C5C27C466F60085102B /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739F4C5B27C466F60085102B /* DirectionsMap.swift */; };
 		739F4C5F27C53B510085102B /* OnboardongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739F4C5E27C53B510085102B /* OnboardongView.swift */; };
 		739F4C6227C54D990085102B /* LocationDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739F4C6127C54D990085102B /* LocationDeniedView.swift */; };
+		739F4C6527C56C970085102B /* YelpAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739F4C6427C56C970085102B /* YelpAttribution.swift */; };
+		739F4C6727C56F6F0085102B /* DashedDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739F4C6627C56F6F0085102B /* DashedDivider.swift */; };
 		73F2774F27BBEDAB008F4EC2 /* City_SIghtsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2774E27BBEDAB008F4EC2 /* City_SIghtsApp.swift */; };
 		73F2775127BBEDAB008F4EC2 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2775027BBEDAB008F4EC2 /* LaunchView.swift */; };
 		73F2775327BBEDAC008F4EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F2775227BBEDAC008F4EC2 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 		739F4C5B27C466F60085102B /* DirectionsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsMap.swift; sourceTree = "<group>"; };
 		739F4C5E27C53B510085102B /* OnboardongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardongView.swift; sourceTree = "<group>"; };
 		739F4C6127C54D990085102B /* LocationDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDeniedView.swift; sourceTree = "<group>"; };
+		739F4C6427C56C970085102B /* YelpAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAttribution.swift; sourceTree = "<group>"; };
+		739F4C6627C56F6F0085102B /* DashedDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedDivider.swift; sourceTree = "<group>"; };
 		73F2774B27BBEDAB008F4EC2 /* City SIghts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City SIghts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F2774E27BBEDAB008F4EC2 /* City_SIghtsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_SIghtsApp.swift; sourceTree = "<group>"; };
 		73F2775027BBEDAB008F4EC2 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
@@ -129,6 +133,15 @@
 			path = Denied;
 			sourceTree = "<group>";
 		};
+		739F4C6327C56C410085102B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				739F4C6427C56C970085102B /* YelpAttribution.swift */,
+				739F4C6627C56F6F0085102B /* DashedDivider.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		73F2774227BBEDAB008F4EC2 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +187,7 @@
 				7353F82127BD4C1400C194B6 /* Home */,
 				739F4C5D27C53B100085102B /* Onboarding */,
 				739F4C6027C54D600085102B /* Denied */,
+				739F4C6327C56C410085102B /* Common */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -275,11 +289,13 @@
 				7353F82827BD7D5900C194B6 /* BusinessSectionHeader.swift in Sources */,
 				73F2774F27BBEDAB008F4EC2 /* City_SIghtsApp.swift in Sources */,
 				731B0AEB27BEA3B000B98C94 /* BusinessDetail.swift in Sources */,
+				739F4C6727C56F6F0085102B /* DashedDivider.swift in Sources */,
 				7353F81B27BC1ABA00C194B6 /* BusinessSearch.swift in Sources */,
 				739F4C5A27C4602F0085102B /* BusinessTitle.swift in Sources */,
 				7353F82627BD589F00C194B6 /* BusinessList.swift in Sources */,
 				739572F527BECCA600AFAD66 /* BusinessMap.swift in Sources */,
 				739F4C5F27C53B510085102B /* OnboardongView.swift in Sources */,
+				739F4C6527C56C970085102B /* YelpAttribution.swift in Sources */,
 				7353F82A27BD7FDF00C194B6 /* BusinessSection.swift in Sources */,
 				7353F81727BBF53200C194B6 /* ContentModel.swift in Sources */,
 				7353F81E27BC78F400C194B6 /* Constants.swift in Sources */,
